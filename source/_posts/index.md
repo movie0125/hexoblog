@@ -18,3 +18,5 @@ adasdasd
 def hello():
     print "hello0“
 ```
+
+<!--more-->
