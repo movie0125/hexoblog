@@ -239,7 +239,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night blue
 
 
 # ---------------------------------------------------------------
@@ -355,7 +355,7 @@ busuanzi_count:
 
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 59823569
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
@@ -453,9 +453,21 @@ vendors:
   algolia_instant_js:
   algolia_instant_css:
 
-reward_comment: 您的打赏是对我最大的鼓励！
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: /path/to/wechat-reward-image
 alipay: /path/to/alipay-reward-image
+
+index_generator:
+  per_page: 5
+
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
+
 
 # Assets
 css: css
