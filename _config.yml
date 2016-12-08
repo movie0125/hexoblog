@@ -5,10 +5,10 @@
 # Site
 title: Movie‘s Blog
 subtitle:
-description: 学习，记录，分享，收获 
+description: 学习，记录，分享，收获
 author: 马威
 language: zh-Hans
-timezone: 
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -65,6 +65,21 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 theme: next
+
+algolia:
+  applicationID: "ICB323SN7B"
+  apiKey: "01690fbe868bb98600ac75e6e7fdce1c"
+  adminApiKey: "d0128de168f6fa40d87feeb66424ce89"
+  indexName: "movieblog"
+  chunkSize: 5000
+#  fields:
+#    - title
+#    - tags
+#    - slug
+#    - excerpt
+#    - excerpt:strip
+#    - photos
+#    - gallery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
