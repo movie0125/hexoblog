@@ -5,4 +5,6 @@ type: "about"
 comments: false
 ---
 
-技术宅
+CSDN博客: http://blog.csdn.net/movie0125
+github： https://github.com/movie0125
+个人邮箱： movie0125@gmail.com

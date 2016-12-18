@@ -6,7 +6,7 @@
 favicon: /images/logo2.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "Movie"
+keywords: "Movie,Blog,devops,openstack,ceph,ansible,puppet"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -176,18 +176,19 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  display: post
-  #display: always
+  #display: post
+  display: always
   #display: hide
   #display: remove
 
 
 # Blogrolls
 links_title: Links
-links_layout: block
-#links_layout: inline
+#links_layout: block
+links_layout: inline
 links:
-  我的CSDN博客: http://blog.csdn.net/movie0125
+  CSDN博客: http://blog.csdn.net/movie0125
+  github: https://github.com/movie0125
 
 
 # ---------------------------------------------------------------
@@ -209,7 +210,7 @@ auto_excerpt:
 # Post meta display settings
 post_meta:
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 
@@ -282,7 +283,7 @@ duoshuo_shortname: movieblog
 
 # Share
 duoshuo_share: true
-duoshuo_hotartical: true
+duoshuo_hotartical: false
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
