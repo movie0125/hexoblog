@@ -66,12 +66,18 @@ pagination_dir: page
 # theme: landscape
 theme: next
 
-algolia:
-  applicationID: "ICB323SN7B"
-  apiKey: "01690fbe868bb98600ac75e6e7fdce1c"
-  adminApiKey: "d0128de168f6fa40d87feeb66424ce89"
-  indexName: "movieblog"
-  chunkSize: 5000
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+#algolia:
+#  applicationID: "ICB323SN7B"
+#  apiKey: "01690fbe868bb98600ac75e6e7fdce1c"
+#  adminApiKey: "d0128de168f6fa40d87feeb66424ce89"
+#  indexName: "movieblog"
+#  chunkSize: 5000
 #  fields:
 #    - title
 #    - tags
