@@ -172,16 +172,16 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  #position: left
-  position: right
+  position: left
+  #position: right
 
   # Sidebar Display, available value:
-  #  - post    expand on posts automatically. Default.
+  #  - post    expand on posts automaexotically. Default.
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  #display: post
-  display: always
+  display: post
+  #display: always
   #display: hide
   #display: remove
 
@@ -190,10 +190,10 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls
@@ -290,9 +290,6 @@ mathjax:
 # Baidu Analytics ID
 #baidu_analytics:
 
-# Duoshuo ShortName
-#duoshuo_shortname:
-
 # Disqus
 disqus:
   enable: false
@@ -331,8 +328,6 @@ changyan:
 # Warning: JiaThis does not support https.
 #add_this_id:
 
-# Share
-#duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -351,15 +346,6 @@ changyan:
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
 # application_insights:
-
-# Make duoshuo show UA
-# user_id must NOT be null when admin_enable is true!
-# you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
 
 
 # Facebook SDK Support.
